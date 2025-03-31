@@ -1,0 +1,59 @@
+Pregunta 1:
+¿Cuál de las siguientes afirmaciones sobre SMTP es correcta?
+Respuesta: Contempla tres fases: saludo inicial, transferencia de mensajes y despedida
+
+Pregunta 2:
+¿En qué capa OSI se añade una dirección MAC de origen a una PDU durante el proceso de encapsulación?
+Respuesta: Capa de enlace de datos
+
+Pregunta 3:
+¿Cuál es el término general que se utiliza para describir un dato en capa de transporte (utilizando un protocolo no orientado a conexión) de un modelo de red?
+Respuesta: Paquete
+
+Pregunta 4:
+De los que se enumeran a continuación, ¿qué dispositivo opera en las siete capas del modelo OSI? (elija 3)
+Respuesta: Web Server, Terminal, Terminal de administración de red
+
+Pregunta 5:
+En una comunicación de datos que se rige con algún modelo de capas: ¿qué describe mejor a los protocolos e interfaces del modelo?
+Respuesta: Los protocolos rigen la comunicación virtual entre capas del mismo nivel, y las interfaces vinculan el diálogo entre capas adyacentes del mismo apilamiento.
+
+Pregunta 6:
+¿Cuáles de las siguientes afirmaciones sobre DNS son correctas? (marcar dos)
+Respuesta:
+
+Almacena registros con las direcciones IP asignadas a cada nombre de host, pero también almacena los servidores de correo o los servidores de DNS asociados a un dominio.
+
+Utiliza TCP como protocolo de transporte.
+
+Pregunta 7:
+¿Qué opción de entrega de mensajes se utiliza cuando todos los dispositivos necesitan recibir el mismo mensaje simultáneamente?
+Respuesta: Broadcast
+
+Pregunta 8:
+En la comunicación informática, ¿cuál es el propósito de la codificación de mensajes?
+Respuesta: Para convertir la información en la forma apropiada para la transmisión
+
+Pregunta 9:
+¿Cuál es el término general que se utiliza para describir un dato en capa de red, de un modelo de red?
+Respuesta: Paquete
+
+Pregunta 10:
+¿Cuáles son los dos beneficios de usar un modelo de red en capas? (elija dos)
+Respuesta:
+
+Ayuda en el diseño del protocolo
+
+Evita que la tecnología de una capa afecte a otras capas
+
+Pregunta 11:
+Los siguientes son elementos que operan exclusivamente en la capa física de la red:
+Respuesta: HUB
+
+Pregunta 12:
+Consiste en una serie de lineamientos que establecen la forma de cómo dos equipos se comunican entre sí:
+Respuesta: Protocolos de comunicación
+
+Pregunta 13:
+¿Cuál es el término general que se utiliza para describir un dato en capa de enlace de datos, de un modelo de red?
+Respuesta: Trama o frame

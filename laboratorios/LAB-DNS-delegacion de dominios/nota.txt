@@ -1,0 +1,9 @@
+28/9/2025 20:25pm
+
+servidores izquierdos config mirando la clase grabada, consultar totalidad de configuracion
+
+la pc de la derecha hace ping correcto al segundo servidor
+
+la pc de google no
+
+continuar tarea, creo que estoy en el punto 5

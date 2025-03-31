@@ -1,0 +1,111 @@
+C:\Users\Bruno>nslookup
+Servidor predeterminado:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+> set q=ns
+> .
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+(root)  nameserver = e.root-servers.net
+(root)  nameserver = c.root-servers.net
+(root)  nameserver = d.root-servers.net
+(root)  nameserver = m.root-servers.net
+(root)  nameserver = f.root-servers.net
+(root)  nameserver = b.root-servers.net
+(root)  nameserver = j.root-servers.net
+(root)  nameserver = h.root-servers.net
+(root)  nameserver = k.root-servers.net
+(root)  nameserver = i.root-servers.net
+(root)  nameserver = g.root-servers.net
+(root)  nameserver = l.root-servers.net
+(root)  nameserver = a.root-servers.net
+> set q=a
+> k.root-servers.net
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+Nombre:  k.root-servers.net.com.ar
+Address:  200.68.105.168
+
+> k.root-servers.net.
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+Nombre:  k.root-servers.net
+Address:  193.0.14.129
+
+> set q=ns
+> ar.
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+ar      nameserver = e.dns.ar
+ar      nameserver = d.dns.ar
+ar      nameserver = a.lactld.org
+ar      nameserver = f.dns.ar
+ar      nameserver = c.dns.ar
+> set q=a
+> c.dns.ar
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+Nombre:  c.dns.ar
+Address:  200.108.148.50
+
+> set q=a
+> set q=ns
+> .com.ar.
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+*** 133-140-30-181.fibertel.com.ar no encuentra .com.ar.: Unspecified error
+> .com.ar
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+*** 133-140-30-181.fibertel.com.ar no encuentra .com.ar: Unspecified error
+> com.ar
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+com.ar  nameserver = f.dns.ar
+com.ar  nameserver = e.dns.ar
+com.ar  nameserver = c.dns.ar
+com.ar  nameserver = d.dns.ar
+com.ar  nameserver = a.lactld.org
+> set q=a
+> c.dns.ar
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+Nombre:  c.dns.ar
+Address:  200.108.148.50
+
+> set q=ns
+> edu.ar
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+edu.ar  nameserver = unlp.unlp.edu.ar
+edu.ar  nameserver = a.riu.edu.ar
+edu.ar  nameserver = noc.uncu.edu.ar
+edu.ar  nameserver = b.riu.edu.ar
+edu.ar  nameserver = ns2.switch.ch
+edu.ar  nameserver = ns1.uba.ar
+> set  q=a
+> a.riu.edu.ar
+Servidor:  133-140-30-181.fibertel.com.ar
+Address:  181.30.140.133
+
+Respuesta no autoritativa:
+Nombre:  a.riu.edu.ar
+Address:  170.210.5.56
