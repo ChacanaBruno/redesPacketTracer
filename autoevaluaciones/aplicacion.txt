@@ -1,0 +1,534 @@
+autoevaluacion APLICACION
+
+CUANDO SE RECUPERAN LOS MENSAJES DE CORREO ELECTRÓNICO, ¿QUÉ PROTOCOLO PERMITE EL ALMACENAMIENTO FÁCIL Y CENTRALIZADO Y LA COPIA DE SEGURIDAD DE LOS CORREOS ELECTRÓNICOS QUE SERÍA DESEABLE PARA UNA PEQUEÑA O MEDIANA EMPRESA?
+
+IMAP
+
+--
+
+¿Cuáles de las siguientes afirmaciones sobre HTTP 1.1 son correctas? (marcar dos).
+
+Seleccione una o más de una:
+
+a.
+Es un protocolo sin estado.
+
+
+b.
+Un cliente de HTTP 1.0 es incompatible con un servidor HTTP 1.1.
+
+
+c.
+Utiliza TCP como protocolo de transporte.
+
+
+d.
+No permite conexiones persistentes.
+
+Retroalimentación
+
+
+Las respuestas correctas son: Es un protocolo sin estado., Utiliza TCP como protocolo de transporte.
+
+
+--
+UN CLIENTE WEB ESTÁ RECIBIENDO UNA RESPUESTA PARA UNA PÁGINA WEB DE UN SERVIDOR WEB. DESDE LA PERSPECTIVA DEL CLIENTE, ¿CUÁL ES EL ORDEN CORRECTO DE LA PILA DE PROTOCOLOS QUE SE UTILIZA PARA DECODIFICAR LA TRANSMISIÓN RECIBIDA?
+
+Seleccione una:
+
+a.
+HTTP, TCP, IP, Ethernet
+
+
+b.
+HTTP, Ethernet, IP, TCP
+
+
+c.
+Ethernet, IP, TCP, HTTP
+
+
+d.
+Ethernet, TCP, IP, HTTP
+
+Retroalimentación
+La respuesta correcta es: Ethernet, IP, TCP, HTTP
+
+--
+
+EL USUARIO NO PUEDE ACCEDER AL SITIO WEB CUANDO ESCRIBE HTTP://WWW.sitio.com EN UN NAVEGADOR, PERO SABIENDO QUE EL IP DEL SITIO ES 200.43.23.24 PUEDE ACCEDER AL MISMO SITIO ESCRIBIENDO http://200.43.23.24. ¿CUÁL ES EL PROBLEMA?
+
+Seleccione una:
+
+a.
+Protocolo de Aplicación utilizado
+
+
+b.
+puerta de enlace por defecto
+
+
+c.
+Pila de protocolos TCP/IP
+
+
+d.
+DNS
+
+
+e.
+DHCP
+
+Retroalimentación
+Evidentemente el servicio HTTP esta operativo, lo que no se esta recibiendo en la respuesta DNS.
+
+La respuesta correcta es: DNS
+
+--
+
+¿QUÉ TIPO DE MENSAJE UTILIZA UN CLIENTE HTTP PARA ENVIAR DATOS DE UN SERVIDOR WEB?
+
+Seleccione una:
+
+a.
+POST
+
+
+b.
+PUT
+
+
+c.
+ACK
+
+
+d.
+GET
+
+Retroalimentación
+La respuesta correcta es: POST
+
+--
+
+¿CUÁL ES LA FUNCIÓN DEL MENSAJE HTTP GET?
+
+Seleccione una:
+
+a.
+para subir el contenido a un servidor web desde un cliente web
+
+
+b.
+para solicitar una página HTML de un servidor web
+
+
+c.
+para enviar información de error de un servidor web a un cliente web
+
+
+d.
+para recuperar el correo electrónico del cliente de un servidor de correo electrónico utilizando el puerto TCP 110
+
+Retroalimentación
+La respuesta correcta es: para solicitar una página HTML de un servidor web
+
+--
+
+¿Cuáles de las siguientes afirmaciones sobre DNS son correctas? (marcar dos)
+
+Seleccione una o más de una:
+
+a.
+Solo existe un servidor de DNS raiz en Internet.
+
+
+b.
+Utiliza TCP como protocolo de transporte.
+
+
+c.
+Almacena registros con las direcciones IP asignadas a cada nombre de host, pero también almacena los
+servidores de correo o los servidores de DNS asociados a un dominio.
+
+
+d.
+Todos los servidores de nombres contienen los datos correspondientes a todos los nombres de Internet.
+
+Retroalimentación
+Un servidor DNS almacena la relación de Nombe e IP de los equipos y también para el dominio quienes manejan los servicios de DNS y de Correo. También utiliza el protocolo UDP para consultas y TCP para Transferencia de Zona
+
+Las respuestas correctas son: Almacena registros con las direcciones IP asignadas a cada nombre de host, pero también almacena los
+servidores de correo o los servidores de DNS asociados a un dominio., Utiliza TCP como protocolo de transporte.
+
+--
+
+¿QUÉ TIPO DE MENSAJE UTILIZA UN CLIENTE HTTP PARA SOLICITAR DATOS DE UN SERVIDOR WEB?
+
+Seleccione una:
+
+a.
+PUT
+
+
+b.
+POST
+
+
+c.
+ACK
+
+
+d.
+GET
+
+Retroalimentación
+La respuesta correcta es: GET
+
+--
+
+Se realiza la ejecucion de NSLOOKUP en una PC.¿Cual de las siguientes afirmaciones es correcta?
+
+C:\>nslookup rackspace.co.uk
+Server: cachens1.lon.rackspace.com
+Address: 83.138.151.80
+
+Non-authoritative answer:
+
+Name: rackspace.co.uk
+Address: 212.64.133.165
+
+Seleccione una:
+
+a.
+El comando ejecutado en la PC del usuario realiza la consulta al resolver local configurado
+
+
+b.
+Responde la consulta el servidor con dirección 212.64.133.165
+
+
+c.
+Ninguna de las otras respuestas
+
+
+d.
+rackspace.co.uk es servidor autoritario para el dominio co.uk
+
+
+e.
+La respuesta es del tipo A
+
+Retroalimentación
+La respuesta correcta es: La respuesta es del tipo A
+
+--
+
+
+
+¿POR QUÉ HTTP UTILIZA TCP COMO PROTOCOLO DE LA CAPA DE TRANSPORTE?
+
+Seleccione una:
+
+a.
+para asegurar la mayor velocidad de descarga posible
+
+
+b.
+porque el HTTP requiere una entrega fiable
+
+
+c.
+porque los errores de transmisión pueden ser tolerados fácilmente
+
+
+d.
+porque HTTP es un protocolo de mejor esfuerzo
+
+Retroalimentación
+La respuesta correcta es: porque el HTTP requiere una entrega fiable
+
+--
+
+
+¿QUÉ SERVICIO DE RED ASIGNA AUTOMÁTICAMENTE LAS DIRECCIONES IP A LOS DISPOSITIVOS DE LA RED?
+
+Seleccione una:
+
+a.
+DHCP
+
+
+b.
+DNS
+
+
+c.
+Telnet
+
+
+d.
+traceroute
+
+Retroalimentación
+La respuesta correcta es: DHCP
+
+--
+
+¿Cuántas PDUs(mensajes) envía un cliente DNS en una consulta?
+
+Seleccione una:
+
+a.
+2
+
+
+b.
+1
+
+
+c.
+4
+
+
+d.
+3
+
+Retroalimentación
+
+
+La respuesta correcta es: 1
+
+--
+
+Se realiza la realiza de una PC la siguiente petición HTTP.¿Cual de las siguientes URL que describen la petición es correcta?
+
+La petición del cliente:
+
+GET /cal/2020/ HTTP/1.1
+Host: cal.unq.edu.ar
+Seleccione una:
+
+a.
+http://cal.unq.edu.ar/cal/2020.html
+
+
+b.
+http://cal.unq.edu.ar/index.html
+
+
+c.
+http://cal.unq.edu.ar/
+
+
+d.
+Ninguna de las otras respuestas
+
+
+e.
+http://unq.edu.ar/cal/
+
+Retroalimentación
+La correcta seria la petición del archivo por defecto(posiblemente index.html) de la siguiente URL http://cal.unq.edu.ar/cal/2020/
+
+La respuesta correcta es: Ninguna de las otras respuestas
+
+--
+
+
+¿Cuál de las siguientes afirmaciones sobre SMTP es correcta?
+
+Seleccione una:
+
+a.
+Utiliza UDP como protocolo de transporte.
+
+
+b.
+Se utiliza para leer el correo electrónico.
+
+
+c.
+Contempla tres fases: saludo inicial, transferencia de mensajes y despedida
+
+
+d.
+Solo permite enviar un mensaje en cada conexión.
+
+Retroalimentación
+Saludo mediante Hello o Ehlo, From --TO Data (envio del mensaje), cierre o despedida QUIT
+
+La respuesta correcta es: Contempla tres fases: saludo inicial, transferencia de mensajes y despedida
+
+--
+
+¿CUÁL ES UN EJEMPLO DE COMUNICACIÓN EN RED QUE UTILIZA EL MODELO CLIENTE-SERVIDOR?
+
+Seleccione una:
+
+a.
+Un usuario utiliza eMule para descargar un archivo que es compartido por un amigo después de que se determine la ubicación del archivo.
+
+
+b.
+Una estación de trabajo inicia un ARP para encontrar la dirección MAC de un host receptor.
+
+
+c.
+Un usuario imprime un documento utilizando una impresora que está conectada a la estación de trabajo de un compañero de trabajo.
+
+
+d.
+Una estación de trabajo inicia una solicitud de DNS cuando el usuario escribe www.unq.edu.ar en la barra de direcciones de un navegador web.
+
+Retroalimentación
+La respuesta correcta es: Una estación de trabajo inicia una solicitud de DNS cuando el usuario escribe www.unq.edu.ar en la barra de direcciones de un navegador web.
+
+
+
+--
+
+¿QUÉ PARTE DE LA URL, HTTP://WWW.CISCO.COM/INDEX.HTML, REPRESENTA EL DOMINIO DNS DE NIVEL SUPERIOR?
+
+Seleccione una:
+
+a.
+index
+
+
+b.
+www
+
+
+c.
+http
+
+
+d.
+.com
+
+Retroalimentación
+La respuesta correcta es: .com
+
+--
+
+¿QUÉ TIPO DE INFORMACIÓN CONTIENE UN REGISTRO DNS MX?
+
+Seleccione una:
+
+a.
+la dirección IP para una entrada FQDN
+
+
+b.
+la dirección IP de un servidor de nombres autorizado para el dominio
+
+
+c.
+el FQDN del alias utilizado para identificar un servicio
+
+
+d.
+el nombre de dominio asignado a los servidores de intercambio de correo
+
+Retroalimentación
+La respuesta correcta es: el nombre de dominio asignado a los servidores de intercambio de correo
+
+--
+
+EL USUARIO NO PUEDE ACCEDER AL SITIO WEB CUANDO ESCRIBE HTTP://sitio.com EN UN NAVEGADOR, PERO PUEDE ACCEDER AL MISMO SITIO ESCRIBIENDO http://WWW.sitio.com. ¿CUÁL ES EL PROBLEMA?
+
+Seleccione una:
+
+a.
+DNS
+
+
+b.
+Pila de protocolos TCP/IP
+
+
+c.
+DHCP
+
+
+d.
+Protocolo de Aplicación utilizado
+
+
+e.
+puerta de enlace por defecto
+
+Retroalimentación
+Evidentemente si tenes una respuesta al dominio WWW.sitio.com pero no establece a sitio.com, esto significa que para el primer nombre canonico se obtuvo una respuesta dns con un registro A indicando el ip del Nombre, y para el otro caso no. lo que puede ser que el dominio sitio.com no tenga dado de alta un registro A.
+
+La respuesta correcta es: DNS
+
+--
+
+UNA EMPRESA MANUFACTURERA SE SUSCRIBE A CIERTOS SERVICIOS ALOJADOS DE SU PROVEEDOR DE SERVICIOS DE INTERNET. ENTRE LOS SERVICIOS QUE SE REQUIEREN FIGURAN EL HOSPEDAJE DE LA WORLD WIDE WEB, LA TRANSFERENCIA DE ARCHIVOS Y EL CORREO ELECTRÓNICO. ¿QUÉ PROTOCOLOS REPRESENTAN ESTAS TRES APLICACIONES CLAVE? (ELIJA TRES.)
+
+Seleccione una o más de una:
+
+a.
+DHCP
+
+
+b.
+HTTP
+
+
+c.
+FTP
+
+
+d.
+SMTP
+
+
+e.
+SNMP
+
+
+f.
+DNS
+
+Retroalimentación
+
+
+Las respuestas correctas son: SMTP, HTTP, FTP
+
+--
+
+
+¿CUÁLES SON LAS DOS CARACTERÍSTICAS DE LA CAPA DE APLICACIÓN DEL MODELO TCP/IP? (ELIJA DOS.)
+
+Seleccione una o más de una:
+
+a.
+la responsabilidad del direccionamiento físico
+
+
+b.
+la creación y el mantenimiento del diálogo entre las aplicaciones de origen y de destino
+
+
+c.
+más cercano al usuario final
+
+
+d.
+el establecimiento del tamaño de la ventana
+
+
+e.
+responsabilidad del direccionamiento lógico
+
+Retroalimentación
+
+
+Las respuestas correctas son: la creación y el mantenimiento del diálogo entre las aplicaciones de origen y de destino, más cercano al usuario final
+
+
+
+
+
