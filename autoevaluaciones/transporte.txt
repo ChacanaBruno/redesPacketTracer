@@ -1,0 +1,205 @@
+QUÉ HACE UN CLIENTE CUANDO TIENE QUE ENVIAR DATAGRAMAS UDP?
+Seleccione una:
+
+a.
+Sólo envía los datagramas.
+
+b.
+Envía un simplificado apretón de manos de tres vías al servidor.
+
+c.
+Envía al servidor un segmento con la bandera SYN puesta para sincronizar la conversación.
+
+d.
+Consulta al servidor para ver si está listo para recibir datos.
+Retroalimentación
+El protocolo UDP al no ser orientado a conexion no necesita hacer nada antes de enviar el datagrama, y tampoco se preocupa si el mensaje llego a destino.
+La respuesta correcta es: Sólo envía los datagramas.
+
+//
+
+LA CAPA DE TRANSPORTE DEL MODELO DE 5 CAPAS (TCP) REALIZA LAS FUNCIONES DE DOS DE LAS CAPAS DEL MODELO OSI? (ELIJA DOS)
+
+Seleccione una o más de una:
+
+a.
+Red
+
+b.
+Física
+
+c.
+Aplicación
+
+d.
+Enlace de datos
+
+e.
+Sesión
+
+f.
+Transporte
+Retroalimentación
+Las respuestas correctas son: Transporte, Sesión
+
+//
+
+¿QUÉ ES UN SOCKET?
+Seleccione una:
+
+a.
+La combinación de una dirección IP de origen y un número de puerto o una dirección IP de destino y un número de puerto.
+
+b.
+La combinación de los números de secuencia de origen y destino y los números de puerto.
+
+c.
+La combinación de la dirección IP de origen y destino y la dirección Ethernet de origen y destino.
+
+d.
+La combinación de la secuencia de origen y destino y los números de reconocimiento.
+Retroalimentación
+
+La respuesta correcta es: La combinación de una dirección IP de origen y un número de puerto o una dirección IP de destino y un número de puerto.
+
+//
+
+¿CÓMO GESTIONA UN SERVIDOR EN RED LAS SOLICITUDES DE VARIOS CLIENTES PARA DIFERENTES SERVICIOS?
+Seleccione una:
+
+a.
+Cada solicitud se rastrea a través de la dirección física del cliente.
+
+b.
+El servidor utiliza las direcciones IP para identificar los diferentes servicios.
+
+c.
+A cada solicitud se le relacionan por los sockets de origen y destino.
+
+d.
+El servidor envía todas las solicitudes a través de una puerta de enlace predeterminad
+
+//
+
+¿CUÁLES SON LAS TRES RESPONSABILIDADES DE LA CAPA DE TRANSPORTE?
+Seleccione una o más de una:
+
+a.
+Dirigir los paquetes hacia la red de destino
+
+
+b.
+La multiplexación de múltiples flujos de comunicación de muchos usuarios o aplicaciones en la misma red
+
+c.
+Cumplir con los requisitos de fiabilidad de las aplicaciones, si los hay
+
+d.
+La detección de errores en el contenido de las tramas
+
+e.
+Formatear los datos en un formato compatible para su recepción por los dispositivos de destino
+
+f.
+Identificando las aplicaciones y servicios en el cliente y el servidor que deben manejar los datos transmitidos
+Retroalimentación
+
+Las respuestas correctas son: La multiplexación de múltiples flujos de comunicación de muchos usuarios o aplicaciones en la misma red, Identificando las aplicaciones y servicios en el cliente y el servidor que deben manejar los datos transmitidos, La detección de errores en el contenido de las tramas
+
+//
+
+Las respuestas correctas son: La multiplexación de múltiples flujos de comunicación de muchos usuarios o aplicaciones en la misma red, Identificando las aplicaciones y servicios en el cliente y el servidor que deben manejar los datos transmitidos, La detección de errores en el contenido de las tramas
+Pregunta 7
+Parcialmente correcta
+Se puntúa 7,50 sobre 10,00
+No marcadasMarcar pregunta
+Enunciado de la pregunta
+RELACIONAR LOS SIGUIENTES ITEMS
+HTTP	Respuesta 1
+No es protocolo de transporte
+ 
+DNS	Respuesta 2
+No es un protocolo de red
+ 
+TCP	Respuesta 3
+Protocolo de transporte orientado a conexión
+ 
+UDP	Respuesta 4
+Protocolo de transporte no orientado a conexión
+ 
+Retroalimentación
+Respuesta parcialmente correcta.
+Ha seleccionado correctamente 3.
+La respuesta correcta es: HTTP → No es protocolo de transporte, DNS → No es protocolo de transporte, TCP → Protocolo de transporte orientado a conexión, UDP → Protocolo de transporte no orientado a conexión
+
+
+//
+
+¿CUÁL ES EL MECANISMO DE TCP UTILIZADO PARA REALIZAR CONTROL DE FLUJO?
+Seleccione una:
+
+a.
+Un apretón de manos bidireccional
+
+b.
+Ventana deslizante
+
+c.
+El apretón de manos de tres vías
+
+d.
+Par de socket
+Retroalimentación
+Achicando el tamaño de ventana el receptor puede manejar la cantidad de informacion que el emisor le puede enviar, evitando recibir mas informacion de la que puede manejar en sus buffers
+La respuesta correcta es: Ventana deslizante
+
+
+//
+
+¿EN QUÉ DOS SITUACIONES SERÍA MEJOR UDP QUE TCP COMO PROTOCOLO DE TRANSPORTE PREFERIDO? (ELIJA DOS)
+Seleccione una o más de una:
+
+a.
+cuando las aplicaciones necesitan garantizar que un paquete llegue intacto, en secuencia y sin duplicar
+
+b.
+cuando se necesita un mecanismo de entrega más rápido
+
+c.
+cuando las aplicaciones no necesitan garantizar la entrega de los datos
+
+d.
+cuando la entrega de los gastos generales no es un problema
+
+
+e.
+cuando los números de los puertos de destino son dinámicos
+Retroalimentación
+
+Las respuestas correctas son: cuando se necesita un mecanismo de entrega más rápido, cuando las aplicaciones no necesitan garantizar la entrega de los datos
+
+//
+
+¿CUÁLES SON LOS TRES CAMPOS QUE SE USAN EN EL ENCABEZADO DE UN DATAGRAMA UDP?
+Seleccione una o más de una:
+
+a.
+Número de secuencia
+
+b.
+Checksum
+
+c.
+Número de Reconocimiento
+
+d.
+Longitud
+
+e.
+Tamaño de la ventana
+
+f.
+Puerto de origen
+Retroalimentación
+
+Las respuestas correctas son: Longitud, Puerto de origen, Checksum
